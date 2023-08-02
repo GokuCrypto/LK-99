@@ -1,0 +1,9 @@
+
+export enum StakeType {
+ 	STAKE_FOR_WOOL = 0,
+  STAKE_FOR_MILK = 1,
+  STAKE_WOVIES = 2,
+  UNSTAKE_FOR_WOOL = 3,
+  UNSTAKE_FOR_MILK = 4,
+  UNSTAKE_WOVIES = 5,
+}

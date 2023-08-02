@@ -26,23 +26,29 @@ export const sideMenuLinks: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     href: '/',
   },
   {
-    label: t('Forum'),
+    label: t('Coming Soon'),
     icon: 'SyncAlt',
     href: '/ComingSoon',
 
   },
-
-  {
-    label: t('Counselling'),
-    icon: 'SyncAlt',
-    href: '/ComingSoon'
-  },
-
-  {
-    label: t('LK-99 Insurance'),
-    icon: 'SyncAlt',
-    href: '/ComingSoon'
-  },
+  // {
+  //   label: t('Forum'),
+  //   icon: 'SyncAlt',
+  //   href: '/ComingSoon',
+  //
+  // },
+  //
+  // {
+  //   label: t('Counselling'),
+  //   icon: 'SyncAlt',
+  //   href: '/ComingSoon'
+  // },
+  //
+  // {
+  //   label: t('LK-99 Insurance'),
+  //   icon: 'SyncAlt',
+  //   href: '/ComingSoon'
+  // },
 
 
   /*  {

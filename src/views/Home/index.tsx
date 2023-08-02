@@ -187,7 +187,7 @@ const Home: React.FC = () => {
         </StyledText>
         <StyledText fontSize={'20px'} mt={50} textAlign={'center'}>
           {t(
-            'LK-99 means the human beings who reading for 20 years, paying off a mortgage for 30 years and living in hospital until death. We are human beings who have been used as mine instead of person.',
+              'LK-99 Introduce',
           )}
         </StyledText>
         <BertDiv>
@@ -203,15 +203,19 @@ const Home: React.FC = () => {
             <StyledDivii>
               <StyledDiviii style={{ marginTop: '24px' }}>
                 <Text textAlign={'center'}>{t('Token Total')}</Text>
-                <Text textAlign={'center'}>14,000 billion</Text>
+                <Text textAlign={'center'}>100 billion</Text>
               </StyledDiviii>
               <StyledDiviii style={{ marginTop: '24px' }}>
                 <Text textAlign={'center'}>{t('Add LP')}</Text>
-                <Text textAlign={'center'}>10%</Text>
+                <Text textAlign={'center'}>50%</Text>
               </StyledDiviii>
               <StyledDiviii style={{ marginTop: '24px' }}>
                 <Text textAlign={'center'}>{t('Airdrop')}</Text>
                 <Text textAlign={'center'}>20%</Text>
+              </StyledDiviii>
+              <StyledDiviii style={{ marginTop: '24px' }}>
+                <Text textAlign={'center'}>{t('surprise')}</Text>
+                <Text textAlign={'center'}>30%</Text>
               </StyledDiviii>
             </StyledDivii>
           </StyledDiv3>
